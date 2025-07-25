@@ -1,0 +1,49 @@
+/* calendar-overrides.css */
+
+  /* Event hover effect */
+  .fc .fc-event:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+  }
+  
+  /* Style day names (Sun, Mon, Tue, etc) */
+.fc .fc-col-header-cell-cushion {
+    color: #ffffff !important;  /* your custom color */
+    font-weight: 700;
+    font-size: 1rem; /* adjust size as needed */
+    text-transform: uppercase; /* optional: uppercase letters */
+    letter-spacing: 0.05em; /* optional: a little spacing */
+  }
+
+  /* calendar-overrides.css */
+
+/* All day-of-week column headers (Sun-Sat) */
+.fc .fc-col-header-cell {
+  background-color: #2563eb  !important; /* light blue background */
+  color: #1e3a8a !important;            /* deep blue text */
+  font-weight: 600;
+  text-align: center;
+}
+
+  /* Style the "Today" button */
+  .fc-today-button {
+    background-color: #22c55e !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px;
+    padding: 0.4rem 1rem;
+    font-weight: 600;
+    box-shadow: none !important;           /* Kill any shadow */
+    background-image: none !important;     /* Kill background gradients */
+    opacity: 1 !important;                 /* Ensure it's fully opaque */
+  }
+  
+  .fc-daygrid-day-number {
+    color: #5384c1 !important; /* your day number color */
+  }
+  
+  .fc-toolbar-title {
+    color: #1d4ed8    !important; /* your month title color */
+    font-weight: 700;
+  }
+  
