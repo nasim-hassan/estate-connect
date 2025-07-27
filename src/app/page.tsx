@@ -15,7 +15,7 @@ export default function HomePage() {
       <RecentSales />
       <WhyEstateConnect />
       <Testimonials />
-      <GoogleMapSection />
+      <GoogleMapSection/>
     </section>
   );
 }

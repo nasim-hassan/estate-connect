@@ -17,44 +17,52 @@ const center = {
 const mockLocations = [
   {
     id: 1,
-    lat: 23.8488162,
-    lng: 90.3684031,
+    lat: 23.8706429,
+    lng: 90.3961717,
     location: 'Uttara',
     status: 'Ongoing',
     type: 'Residential',
   },
   {
     id: 2,
-    lat: 23.7685,
-    lng: 90.3214,
+    lat: 23.7880411,
+    lng: 90.4029022,
     location: 'Banani',
     status: 'Upcoming',
     type: 'Commercial',
   },
   {
     id: 3,
-    lat: 23.7510,
-    lng: 90.3935,
+    lat: 23.7487914,
+    lng: 90.3749573,
     location: 'Dhanmondi',
     status: 'Completed',
     type: 'Residential',
   },
   {
     id: 4,
-    lat: 23.7443,
-    lng: 90.3667,
+    lat: 23.8647346,
+    lng: 90.39541,
     location: 'Uttara',
     status: 'Ongoing',
     type: 'Commercial',
   },
   {
     id: 5,
-    lat: 23.7611,
-    lng: 90.4234,
+    lat: 23.7935341,
+    lng: 90.4047265,
     location: 'Banani',
     status: 'Upcoming',
     type: 'Residential',
   },
+  {
+    id: 6,
+    lat: 23.8714971,
+    lng: 90.3881266,
+    location: 'Uttara',
+    status: 'Ongoing',
+    type: 'Residential',
+  }
 ];
 
 const darkMapStyle = [
@@ -87,7 +95,7 @@ const GoogleMapSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Explore Our Project on Map
+            Explore Properties on Map
           </h2>
           <p className="mt-4 text-lg text-gray-500">
             View locations of listed properties across Dhaka
